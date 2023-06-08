@@ -36,7 +36,7 @@ setup(
     project_urls={
         "PyPI": "https://pypi.python.org/pypi/slc_sitioweb",
         "Source": "https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com",
-        "Tracker": "https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/issues",
+        "Tracker": "https://github.com/ScrumLATAMComunidad/slc-sitioweb/issues",
     },
     license="GPL version 2",
     packages=find_packages("src", exclude=["ez_setup"]),
