@@ -32,8 +32,8 @@ make create_site
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/ScrumLATAMComunidad/slc-sitioweb/issues)
-- [Source Code](https://github.com/ScrumLATAMComunidad/slc-sitioweb/)
+- [Issue Tracker](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/issues)
+- [Source Code](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/)
 
 ## License
 

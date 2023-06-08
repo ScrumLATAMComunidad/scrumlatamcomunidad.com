@@ -5,9 +5,9 @@ Website repository.
 
 [![Built with Cookiecutter Plone Starter](https://img.shields.io/badge/built%20with-Cookiecutter%20Plone%20Starter-0083be.svg?logo=cookiecutter)](https://github.com/collective/cookiecutter-plone-starter/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![Backend Tests](https://github.com/ScrumLATAMComunidad/slc-sitioweb/actions/workflows/backend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/slc-sitioweb/actions/workflows/backend.yml)
-[![Frontend Tests](https://github.com/ScrumLATAMComunidad/slc-sitioweb/actions/workflows/frontend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/slc-sitioweb/actions/workflows/frontend.yml)
-[![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)](#contributors)
+[![Backend Tests](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/backend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/backend.yml)
+[![Frontend Tests](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/frontend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/frontend.yml)
+[![All Contributors](https://img.shields.io/github/all-contributors/ScrumLATAMComunidad/scrumlatamcomunidad.com?color=ee8449&style=flat-square)](#contributors)
 
 
 A new SCRUM LATAM Comunidad Website using Plone 6 and Volto
@@ -79,7 +79,7 @@ npm install --global yarn
 Clone and install the git repository, executing the following command:
 
 ```shell
-git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git slc-sitioweb && cd $_
+git clone git@github.com:ScrumLATAMComunidad/scrumlatamcomunidad.com.git scrumlatamcomunidad-com && cd $_
 ```
 
 Install the dev stack, executing the following command:
