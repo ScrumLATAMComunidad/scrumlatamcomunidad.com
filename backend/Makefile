@@ -28,7 +28,7 @@ USER_INFO=$$(id -u ${CURRENT_USER})
 LINT=docker run --rm -e LOG_LEVEL="${LOG_LEVEL}" -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} check
 FORMAT=docker run --rm --user="${USER_INFO}" -e LOG_LEVEL="${LOG_LEVEL}" -v "${BACKEND_FOLDER}":/github/workspace plone/code-quality:${CODE_QUALITY_VERSION} format
 
-IMAGE_NAME=ScrumLATAMComunidad/slc-sitioweb-backend
+IMAGE_NAME=ScrumLATAMComunidad/slc-web-backend
 IMAGE_TAG=latest
 
 # Python checks
@@ -143,11 +143,11 @@ lint-zpretty: ## validate ZCML/XML using zpretty
 
 .PHONY: test
 test: ## run tests
-	./bin/zope-testrunner --auto-color --auto-progress --test-path src/slc_sitioweb/src/
+	./bin/zope-testrunner --auto-color --auto-progress --test-path src/slc_web/src/
 
 .PHONY: test_quiet
 test_quiet: ## run tests removing deprecation warnings
-	PYTHONWARNINGS=ignore ./bin/zope-testrunner --auto-color --auto-progress --test-path src/slc_sitioweb/src/
+	PYTHONWARNINGS=ignore ./bin/zope-testrunner --auto-color --auto-progress --test-path src/slc_web/src/
 
 .PHONY: create-site
 create-site: instance/etc/zope.ini ## Create a new site from scratch

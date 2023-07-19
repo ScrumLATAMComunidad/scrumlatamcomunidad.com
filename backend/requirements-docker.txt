@@ -1,2 +1,2 @@
 -c constraints.txt
-src/slc_sitioweb
+src/slc_web

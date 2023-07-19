@@ -1,3 +1,3 @@
 ---
-hostname: 'slc-sitioweb'
+hostname: 'slc-web'
 fqdn: '{{ hostname }}.localhost'

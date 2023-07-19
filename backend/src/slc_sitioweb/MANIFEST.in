@@ -1,6 +1,0 @@
-graft src/slc_sitioweb
-graft docs
-include *.rst
-include *.md
-include *.cfg
-global-exclude *.pyc

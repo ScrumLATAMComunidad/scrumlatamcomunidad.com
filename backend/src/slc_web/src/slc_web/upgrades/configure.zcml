@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <!-- Upgrade steps -->
+  <genericsetup:upgradeSteps
+      profile="slc_web:default"
+      source="20230511001"
+      destination="20230229001"
+      >
+    <genericsetup:upgradeDepends
+        title="Update registry value"
+        import_steps="plone.app.registry"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      profile="slc_web:default"
+      source="20230229001"
+      destination="20230726001"
+      >
+    <genericsetup:upgradeStep
+        title="Upgrade Plone"
+        handler=".upgrade_plone"
+        />
+    <!-- <genericsetup:upgradeStep
+        title="Upgrade pas.plugins.authomatic"
+        handler=".upgrade_pas_plugins_authomatic"
+        /> -->
+  </genericsetup:upgradeSteps>
+
+
+</configure>

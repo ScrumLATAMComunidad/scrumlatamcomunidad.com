@@ -1,7 +1,7 @@
 from AccessControl.SecurityManagement import newSecurityManager
 from Products.CMFPlone.factory import _DEFAULT_PROFILE
 from Products.CMFPlone.factory import addPloneSite
-from slc_sitioweb.interfaces import ISLC_SITIOWEBLayer
+from slc_web.interfaces import ISLC_WEBLayer
 from Testing.makerequest import makerequest
 from zope.interface import directlyProvidedBy
 from zope.interface import directlyProvides
@@ -32,7 +32,7 @@ app = makerequest(app)  # noQA
 request = app.REQUEST
 
 ifaces = [
-    ISLC_SITIOWEBLayer,
+    ISLC_WEBLayer,
 ] + list(directlyProvidedBy(request))
 
 directlyProvides(request, *ifaces)
@@ -43,11 +43,11 @@ newSecurityManager(None, admin)
 
 site_id = "Plone"
 payload = {
-    "title": "Sitio web de SCRUM LATAM Comunidad",
+    "title": "Portal web de SCRUM LATAM Comunidad",
     "profile_id": _DEFAULT_PROFILE,
     "extension_ids": [
-        "slc_sitioweb:default",
-        "slc_sitioweb:initial",
+        "slc_web:default",
+        "slc_web:initial",
     ],
     "setup_content": False,
     "default_language": "es",

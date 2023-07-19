@@ -38,5 +38,5 @@ pyflakes = ["+*"]
 "flake8-*" = ["+*"]
 
 [tool.plone-code-analysis]
-paths = "src/slc_sitioweb/setup.py src/slc_sitioweb/src/ scripts/"
-paths_pyroma = "src/slc_sitioweb"
+paths = "src/slc_web/setup.py src/slc_web/src/ scripts/"
+paths_pyroma = "src/slc_web"

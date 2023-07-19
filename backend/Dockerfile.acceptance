@@ -21,12 +21,12 @@ EOT
 FROM plone/server-acceptance:${PLONE_VERSION}
 
 LABEL maintainer="Leonardo J. Caballero G. <leonardoc@plone.org>" \
-      org.label-schema.name="slc-sitioweb-acceptance" \
-      org.label-schema.description="SCRUM LATAM Comunidad Website backend acceptance image." \
+      org.label-schema.name="slc-web-acceptance" \
+      org.label-schema.description="SCRUM LATAM Comunidad Web portal backend acceptance image." \
       org.label-schema.vendor="Leonardo J. Caballero G."
 
-ENV CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,slc_sitioweb"
-ENV APPLY_PROFILES="slc_sitioweb:default"
+ENV CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,slc_web"
+ENV APPLY_PROFILES="slc_web:default"
 
 # Copy /app from builder
 COPY --from=builder /app /app

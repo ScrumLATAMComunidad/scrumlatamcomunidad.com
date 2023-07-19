@@ -7,7 +7,7 @@ SHELL:=bash
 .DELETE_ON_ERROR:
 MAKEFLAGS+=--warn-undefined-variables
 MAKEFLAGS+=--no-builtin-rules
-IMAGE_NAME=ScrumLATAMComunidad/slc-sitioweb-frontend
+IMAGE_NAME=ScrumLATAMComunidad/slc-web-frontend
 IMAGE_TAG=latest
 
 NODEBIN = ./node_modules/.bin

@@ -2,7 +2,7 @@
 # Dev
 dev:
   hosts:
-    slc-sitioweb-local:
+    slc-web-local:
       ansible_host: 127.0.0.1
       ansible_ssh_port: 2222
       ansible_user: vagrant

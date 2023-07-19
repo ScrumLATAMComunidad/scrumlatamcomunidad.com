@@ -20,8 +20,8 @@ EOT
 FROM plone/server-prod-config:${PLONE_VERSION}
 
 LABEL maintainer="Leonardo J. Caballero G. <leonardoc@plone.org>" \
-      org.label-schema.name="slc-sitioweb-backend" \
-      org.label-schema.description="SCRUM LATAM Comunidad Website backend image." \
+      org.label-schema.name="slc-web-backend" \
+      org.label-schema.description="SCRUM LATAM Comunidad Web portal backend image." \
       org.label-schema.vendor="Leonardo J. Caballero G."
 
 # Copy /app from builder

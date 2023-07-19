@@ -1,0 +1,6 @@
+graft src/slc_web
+graft docs
+include *.rst
+include *.md
+include *.cfg
+global-exclude *.pyc

@@ -12,7 +12,7 @@ services:
     - "80:80"
 
   frontend:
-    image: ScrumLATAMComunidad/slc-sitioweb-frontend:latest
+    image: ScrumLATAMComunidad/slc-web-frontend:latest
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
     ports:
@@ -21,10 +21,10 @@ services:
       - backend
 
   backend:
-    image: ScrumLATAMComunidad/slc-sitioweb-backend:latest
+    image: ScrumLATAMComunidad/slc-web-backend:latest
     environment:
       SITE: Plone
-      ADDITIONAL_PROFILES: "slc_sitioweb:default,slc_sitioweb:initial"
+      ADDITIONAL_PROFILES: "slc_web:default,slc_web:initial"
       RELSTORAGE_DSN: "dbname='plone' user='plone' host='db' password='plone'"
     depends_on:
       - db

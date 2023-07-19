@@ -1,7 +1,7 @@
-# SCRUM LATAM Comunidad Website
+# SCRUM LATAM Comunidad Web portal
 
-The [Scrum Latam Comunidad](https://www.scrumlatamcomunidad.com/)
-Website repository.
+The [SCRUM LATAM Comunidad](https://www.scrumlatamcomunidad.com/)
+Web portal repository.
 
 [Spanish](README_es.md)
 
@@ -11,18 +11,17 @@ Website repository.
 [![Frontend Tests](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/frontend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/frontend.yml)
 [![All Contributors](https://img.shields.io/github/all-contributors/ScrumLATAMComunidad/scrumlatamcomunidad.com?color=ee8449&style=flat-square)](#contributors)
 
-
-The new SCRUM LATAM Comunidad Website using Plone 6 and Volto
+A new SCRUM LATAM Comunidad Web portal using Plone 6 and Volto
 technologies.
 
 ## Quick start
 
-### Development Stack
+### Development Setup
 
--   Python 3.9, 3.10, 3.11
--   Node 16
--   yarn
--   Docker
+- Python 3.9, 3.10, 3.11
+- Node 16
+- yarn
+- Docker
 
 ### Install
 
@@ -120,9 +119,9 @@ make help
 This monorepo is composed by two distinct codebases: api and frontend.
 
 -   **backend**: API (Backend) Plone installation using `pip` (not
-    *buildout*). Includes a policy package named `slc_sitioweb`. More
+    *buildout*). Includes a policy package named `slc_web`. More
     details information at
-    [backend/src/slc\_sitioweb/README.md](backend/src/slc_sitioweb/README.md)
+    [backend/src/slc\_web/README.md](backend/src/slc_web/README.md)
     file.
 -   **devops**: Devops Deployments scripts por this monorepo. More
     details information at [devops/README.md](devops/README.md) file.

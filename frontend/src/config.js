@@ -13,8 +13,20 @@
  * }
  */
 
+import SocialSharing from '@codesyntax/volto-social-sharing/SocialSharing';
+import {DEFAULT_SOCIAL} from '@codesyntax/volto-social-sharing/defaultSettings';
+
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
+
+// Push new item
+DEFAULT_SOCIAL.push({
+  name: "Instagram",
+  fa_name: ["fab", "instagram"],
+  color: "#c8232c",
+  sharing_url: "http://instagram.com/?url=",
+  id: "pt"
+});
 
 export default function applyConfig(config) {
   config.settings = {
@@ -22,6 +34,16 @@ export default function applyConfig(config) {
     isMultilingual: false,
     supportedLanguages: ['es'],
     defaultLanguage: 'es',
+    appExtras: [
+      ...config.settings.appExtras,
+      {
+        match: '',
+        component: SocialSharing,
+        props:{
+         socialElements: DEFAULT_SOCIAL
+        }
+      },
+    ],
   };
   return config;
 }

@@ -1,9 +1,9 @@
 -c constraints.txt
--e src/slc_sitioweb[test]
+-e src/slc_web[test]
 
 zope.testrunner
 
 # Add required add-ons
-# (Ideally add them in setup.py for slc_sitioweb)
+# (Ideally add them in setup.py for slc_web)
 # collective.easyform
 pas.plugins.authomatic @ git+https://github.com/collective/pas.plugins.authomatic@main

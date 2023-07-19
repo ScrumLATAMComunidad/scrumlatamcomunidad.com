@@ -22,8 +22,8 @@ EOT
 FROM base
 
 LABEL maintainer="Leonardo J. Caballero G. <leonardoc@plone.org>" \
-      org.label-schema.name="slc-sitioweb-frontend" \
-      org.label-schema.description="SCRUM LATAM Comunidad Website frontend image." \
+      org.label-schema.name="slc-web-frontend" \
+      org.label-schema.description="SCRUM LATAM Comunidad Web portal frontend image." \
       org.label-schema.vendor="Leonardo J. Caballero G."
 
 RUN <<EOT

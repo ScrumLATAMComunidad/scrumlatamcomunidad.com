@@ -19,7 +19,7 @@ lib64/
 local/
 node_modules/
 parts/
-src/slc_sitioweb/setuphandlers/data/*.json
+src/slc_web/setuphandlers/data/*.json
 dist/*
 test.plone_addon/
 var/

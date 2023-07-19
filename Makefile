@@ -129,22 +129,22 @@ stop-stack:  ## Stop local stack
 .PHONY: build-acceptance-servers
 build-acceptance-servers: ## Build Acceptance Servers
 	@echo "Build acceptance backend"
-	@docker build backend -t ScrumLATAMComunidad/slc-sitioweb-backend:acceptance -f backend/Dockerfile.acceptance
+	@docker build backend -t ScrumLATAMComunidad/slc-web-backend:acceptance -f backend/Dockerfile.acceptance
 	@echo "Build acceptance frontend"
-	@docker build frontend -t ScrumLATAMComunidad/slc-sitioweb-frontend:acceptance -f frontend/Dockerfile
+	@docker build frontend -t ScrumLATAMComunidad/slc-web-frontend:acceptance -f frontend/Dockerfile
 
 .PHONY: start-acceptance-servers
 start-acceptance-servers: build-acceptance-servers ## Start Acceptance Servers
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name slc-sitioweb-backend-acceptance -d ScrumLATAMComunidad/slc-sitioweb-backend:acceptance
+	@docker run --rm -p 55001:55001 --name slc-web-backend-acceptance -d ScrumLATAMComunidad/slc-web-backend:acceptance
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name slc-sitioweb-frontend-acceptance --link slc-sitioweb-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d ScrumLATAMComunidad/slc-sitioweb-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name slc-web-frontend-acceptance --link slc-web-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d ScrumLATAMComunidad/slc-web-frontend:acceptance
 
 .PHONY: stop-acceptance-servers
 stop-acceptance-servers: ## Stop Acceptance Servers
 	@echo "Stop acceptance containers"
-	@docker stop slc-sitioweb-frontend-acceptance
-	@docker stop slc-sitioweb-backend-acceptance
+	@docker stop slc-web-frontend-acceptance
+	@docker stop slc-web-backend-acceptance
 
 .PHONY: run-acceptance-tests
 run-acceptance-tests: ## Run Acceptance tests

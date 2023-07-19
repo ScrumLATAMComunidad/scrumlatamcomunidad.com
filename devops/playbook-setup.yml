@@ -20,7 +20,7 @@
     block:
       - name: Create main directory
         ansible.builtin.file:
-          dest: /srv/slc-sitioweb/
+          dest: /srv/slc-web/
           state: directory
           owner: plone
           group: plone
@@ -28,7 +28,7 @@
 
       - name: Create data directory
         ansible.builtin.file:
-          dest: /srv/slc-sitioweb/data
+          dest: /srv/slc-web/data
           state: directory
           owner: 999
           group: 999

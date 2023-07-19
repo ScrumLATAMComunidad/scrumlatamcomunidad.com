@@ -1,6 +1,6 @@
-# Sitio Web de SCRUM LATAM Comunidad
+# Portal Web de SCRUM LATAM Comunidad
 
-Repositorio del Sitio Web de [Scrum Latam Comunidad](https://www.scrumlatamcomunidad.com/).
+Repositorio del Portal Web de [Scrum Latam Comunidad](https://www.scrumlatamcomunidad.com/).
 
 [English](README.md)
 
@@ -10,7 +10,7 @@ Repositorio del Sitio Web de [Scrum Latam Comunidad](https://www.scrumlatamcomun
 [![Pruebas Frontend](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/frontend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/frontend.yml)
 [![Todos los colaboradores](https://img.shields.io/github/all-contributors/ScrumLATAMComunidad/scrumlatamcomunidad.com?color=ee8449&style=flat-square)](#contributors)
 
-El nuevo sitio Web de SCRUM LATAM Comunidad usa tecnologías
+El nuevo portal Web de SCRUM LATAM Comunidad usa tecnologías
 Plone 6 y Volto.
 
 ## Inicio rápido
@@ -120,9 +120,9 @@ Este repositorio monolítico por dos bases de código distintas: api
 (backend) y frontend.
 
 -   **backend**: Instalación de API (Backend) Plone usando `pip` (no
-    *buildout*). Incluye un paquete de políticas denominado `slc_sitioweb`. Más 
+    *buildout*). Incluye un paquete de políticas denominado `slc_web`. Más
     información detallada en el archivo 
-    [backend/src/slc\_sitioweb/README.md](backend/src/slc_sitioweb/README.md).
+    [backend/src/slc\_web](backend/src/slc_web/README.md).
 -   **devops**: Scripts de despliegues Devops para este repositorio monolítico. Más
     información detallada en el archivo [devops/README.md](devops/README.md).
 -   **frontend**: Paquete React (Volto) llamado frontend. Más información detallada
@@ -130,7 +130,7 @@ Este repositorio monolítico por dos bases de código distintas: api
 
 ### Razonamiento
 
--   El repositorio contiene todo el código base necesario para ejecutar el sitio
+-   El repositorio contiene todo el código base necesario para ejecutar el portal
     (excluyendo complementos existentes para Plone y React).
 -   Los flujos de trabajo de Github se activan en función de los cambios en cada base de código
     (ver el directorio `.github/workflows`)

@@ -1,0 +1,19 @@
+@startuml
+class Miembro{
+  +titulo: str
+  +nombres: str
+  +apellidos: str
+  +genero: str
+  +organizacion: str
+  +direccion: str  
+  #telefono: int
+  #correo : str
+  +perfilLinkedin: str
+  +perfilIndico: str
+  +perfilDiscord: str
+  +skills: str
+  +intereses: str
+  +idiomas: str
+  +pais: str
+}
+@enduml

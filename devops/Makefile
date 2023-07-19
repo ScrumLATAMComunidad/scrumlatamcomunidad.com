@@ -70,7 +70,7 @@ docker-login: .docker/config.json  ## Login with Docker
 
 .PHONY: docker-setup
 docker-setup:  ## Setup docker context
-	${DOCKER} context create ${CONTEXT} --description "SCRUM LATAM Comunidad Website deployment" --docker "host=${CONTEXT_HOST}"
+	${DOCKER} context create ${CONTEXT} --description "SCRUM LATAM Comunidad Web portal deployment" --docker "host=${CONTEXT_HOST}"
 
 .PHONY: destroy
 destroy: ## Destroy Vagrant box

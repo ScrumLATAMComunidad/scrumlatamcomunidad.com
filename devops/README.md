@@ -1,4 +1,4 @@
-# SCRUM LATAM Comunidad Website Devops
+# SCRUM LATAM Comunidad Web portal Devops
 
 ## Setup
 

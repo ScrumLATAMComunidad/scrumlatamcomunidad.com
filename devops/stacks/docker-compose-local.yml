@@ -26,7 +26,7 @@ services:
       context: ../../backend
     environment:
       SITE: Plone
-      ADDITIONAL_PROFILES: "slc_sitioweb:default,slc_sitioweb:initial"
+      ADDITIONAL_PROFILES: "slc_web:default,slc_web:initial"
       RELSTORAGE_DSN: "dbname='plone' user='plone' host='db' password='plone'"
     depends_on:
       - db

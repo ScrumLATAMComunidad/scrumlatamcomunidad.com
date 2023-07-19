@@ -110,9 +110,9 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ScrumLATAMComunidad/slc-sitioweb-frontend
+            ScrumLATAMComunidad/slc-web-frontend
           labels: |
-            org.label-schema.docker.cmd=docker run -d -p 3000:3000 ScrumLATAMComunidad/slc-sitioweb-frontend:latest
+            org.label-schema.docker.cmd=docker run -d -p 3000:3000 ScrumLATAMComunidad/slc-web-frontend:latest
           flavor:
             latest=false
           tags: |

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="plone.base.interfaces.controlpanel.IMailSchema"
+           prefix="plone"
+           purge="false"
+  >
+    <value key="email_from_name">[Portal Web] SCRUM LATAM Comunidad</value>
+    <value key="email_from_address">scrums.latam+web@gmail.com</value>
+  </records>
+</registry>
