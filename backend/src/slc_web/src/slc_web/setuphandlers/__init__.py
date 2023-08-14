@@ -9,7 +9,7 @@ from zope.interface import implementer
 @implementer(INonInstallable)
 class HiddenProfiles(object):
     def getNonInstallableProfiles(self):
-        """Hide uninstall profile from site-creation and quickinstaller."""
+        """Hide uninstall profile from site-creation and quick-installer."""
         return [
             "slc_web:uninstall",
         ]

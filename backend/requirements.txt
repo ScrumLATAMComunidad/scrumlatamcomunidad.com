@@ -1,4 +1,5 @@
 -c constraints.txt
+-e src/slc_web
 -e src/slc_web[test]
 
 zope.testrunner

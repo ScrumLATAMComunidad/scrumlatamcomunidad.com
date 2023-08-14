@@ -1,0 +1,22 @@
+@startuml
+class CommunityMember{
+  +title: str
+  +name: str
+  +lastname: str
+  +gender: str
+  +organization: str
+  +lenguaje: str
+  +country: str
+  +addres: str
+  #phone: int
+  #email : str
+  +time_zone: str
+  +linkedIn: str
+  +indico: str
+  +discord: str
+  +skills: str
+  +interests: str
+   +other_lenguaje: str
+
+}
+@enduml

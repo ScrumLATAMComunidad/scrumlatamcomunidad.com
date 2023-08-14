@@ -1,0 +1,5 @@
+-c requirements.txt
+
+mr.bob==1.0.0
+bobtemplates.plone==6.3.0
+plonecli==2.5

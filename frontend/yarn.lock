@@ -1809,6 +1809,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/countup@npm:*":
+  version: 2.0.4
+  resolution: "@eeacms/countup@npm:2.0.4"
+  dependencies:
+    use-elapsed-time: 3.0.2
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: e3cbaf7913cf5103fa0ef37f159cd325503866040a396cf7a8711649645edc49a94a67288cd26e9693f436d26a4bfe31f6834ed6f6feb7f7d055a867f35f5127
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-accordion-block@npm:*":
   version: 9.1.0
   resolution: "@eeacms/volto-accordion-block@npm:9.1.0"
@@ -1818,12 +1829,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-columns-block@npm:6.3.2":
+  version: 6.3.2
+  resolution: "@eeacms/volto-columns-block@npm:6.3.2"
+  dependencies:
+    react-color: ~2.19.3
+  checksum: 7c2d5a9aa6502eade25ef24e8fdc0a4d896ddf2de8fedc33cf8c86fad5fb038fffa77f719e23b71adc97996eaa6d7ccbed0bcd28908cb53b7b1e386cac101c42
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-matomo@npm:*":
   version: 4.1.2
   resolution: "@eeacms/volto-matomo@npm:4.1.2"
   dependencies:
     "@datapunt/matomo-tracker-react": 0.3.1
   checksum: 01d8e5ee644510dda9d631417a13c044e4b445364951bd11eccbbfa05b1e5cdb4116d4606853de5fa3a7797af8d2997d85ab09bebc004da9ba8bd35165034d6f
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-statistic-block@npm:*":
+  version: 2.0.0
+  resolution: "@eeacms/volto-statistic-block@npm:2.0.0"
+  dependencies:
+    "@eeacms/countup": "*"
+  checksum: 92abe3f8720e232138a8c211de3f93f897bb20a40f665e613bf69d756c642bb697f55464e4dfadda66d0722d70fdc88e11b013d6d3f2cb13fd0b36a01ea7a14d
   languageName: node
   linkType: hard
 
@@ -2223,6 +2252,81 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fullcalendar/common@npm:~5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/common@npm:5.9.0"
+  dependencies:
+    tslib: ^2.1.0
+  checksum: b53bd70badb233ee31f628e6c03cfe6ba5f4c4b563b008e5de4b81a5c8095385ba9d461a7b0a857afd6350c1bc40de6553050d7c217064f0dd1078b96343bd19
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/core@npm:5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/core@npm:5.9.0"
+  dependencies:
+    "@fullcalendar/common": ~5.9.0
+    preact: ^10.0.5
+    tslib: ^2.1.0
+  checksum: da187a1fe5fcf76725298b060fb688fccb94c7eb85ff1afae7699f82bcc2f0a0f1c88fc0ca0e01d47cc6d4436ba5a85103b0c718a29b9bbe6a5d2853776c5b13
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/daygrid@npm:5.9.0, @fullcalendar/daygrid@npm:~5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/daygrid@npm:5.9.0"
+  dependencies:
+    "@fullcalendar/common": ~5.9.0
+    tslib: ^2.1.0
+  checksum: 4f21cf44c90017d5b7f77211ead1585ff39ee5dd01d112a0c8bf6ffea9d072d4dfa4bbdd467beb8f4cfc9652f69d4847697604de6849b3fd2330093e16e15a37
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/icalendar@npm:5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/icalendar@npm:5.9.0"
+  dependencies:
+    "@fullcalendar/common": ~5.9.0
+    ical.js: ^1.4.0
+    tslib: ^2.1.0
+  checksum: f5b60aed521d77f86bdf276376751cd25ca75209962b10d73cd0ff243adae279c85f4deaff61b21bf934d8e60534b6f43718f1dd159535c7600173e58655f113
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/list@npm:5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/list@npm:5.9.0"
+  dependencies:
+    "@fullcalendar/common": ~5.9.0
+    tslib: ^2.1.0
+  checksum: f71a9ad0a42bebdd46dca0691e2f987596296e09521481f6b7a3c2fc5529b39d3466251830b735cd51748f46488a82ae309402533ae805f7b70159530060fbf9
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/react@npm:5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/react@npm:5.9.0"
+  dependencies:
+    "@fullcalendar/common": ~5.9.0
+    tslib: ^2.1.0
+  peerDependencies:
+    react: ^16.7.0 || ^17
+    react-dom: ^16.7.0 || ^17
+  checksum: d02b0af2b53186e03ff635f07e8c98edeb06af06d1c4a77c2205ad857ad8cc2c46dc083d0d38551f3f4001714c974484193c4d30db0cb33c67dadbdf83f24b99
+  languageName: node
+  linkType: hard
+
+"@fullcalendar/timegrid@npm:5.9.0":
+  version: 5.9.0
+  resolution: "@fullcalendar/timegrid@npm:5.9.0"
+  dependencies:
+    "@fullcalendar/common": ~5.9.0
+    "@fullcalendar/daygrid": ~5.9.0
+    tslib: ^2.1.0
+  checksum: dedef1e1147cd17aa277b159c806e0f927715d67c513d940bec61cb97bfdf97c71b43c03166d8442e9683e2d7d6f03d81619a694de84e04e5995b9e8ef3585b9
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1, @gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -2250,6 +2354,15 @@ __metadata:
   version: 2.2.5
   resolution: "@iarna/toml@npm:2.2.5"
   checksum: b63b2b2c4fd67969a6291543ada0303d45593801ee744b60f5390f183c03d9192bc67a217abb24be945158f1935f02840d9ffff40c0142aa171b5d3b6b6a3ea5
+  languageName: node
+  linkType: hard
+
+"@icons/material@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@icons/material@npm:0.2.4"
+  peerDependencies:
+    react: "*"
+  checksum: 24baa360cb83f7e1a9e6784ac11185d57eb895b0efd3070ec915693378330f35ff9feb248f650b9649fa3e1045601286585dc05795a4c734d4849b33900351ee
   languageName: node
   linkType: hard
 
@@ -2585,6 +2698,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kitconcept/volto-carousel-block@npm:*":
+  version: 1.1.0
+  resolution: "@kitconcept/volto-carousel-block@npm:1.1.0"
+  dependencies:
+    react-slick: 0.25.2
+    slick-carousel: 1.8.1
+  checksum: 7a3f2a70277ee4dd3ab255db42a667d5e15b3c404ef90f6bba3fd621b2a35e6e70c965871a0f4ed89501800d3e6ecf7038d9a4467784195f07d74f6fb2d965c8
+  languageName: node
+  linkType: hard
+
+"@kitconcept/volto-heading-block@npm:*":
+  version: 2.3.0
+  resolution: "@kitconcept/volto-heading-block@npm:2.3.0"
+  dependencies:
+    react-contenteditable: 3.3.6
+  checksum: af89953eff837718c5bbc69f165ba4cffa3730353a87dda3ad96417822afac4eaeb21df71e417b9f72471bd29fc735a6bd9f89e0910cf1adcbe9c3641b07503c
+  languageName: node
+  linkType: hard
+
+"@kitconcept/volto-separator-block@npm:*":
+  version: 3.2.2
+  resolution: "@kitconcept/volto-separator-block@npm:3.2.2"
+  peerDependencies:
+    "@plone/volto": ">=16.0.0"
+  checksum: 39e63754077d46cbecc4e740315b35fb9a66214f09d090dd5b22a415219aab4297d7447cb36de2fba1724db0e4969410f1710db51f7a7ec083b14b945c54cf80
+  languageName: node
+  linkType: hard
+
 "@kitconcept/volto-slider-block@npm:*":
   version: 4.3.0
   resolution: "@kitconcept/volto-slider-block@npm:4.3.0"
@@ -2669,6 +2810,20 @@ __metadata:
   peerDependencies:
     webpack: ">=4.6.0"
   checksum: 83d60d9aa89c6d605724f9c8301a9ca19f0548ce58b23a713030594ef49666efbd9468cc2955ea79ee967a5f04ee6248176d3eaecdfc6a63be82c38c2e585c08
+  languageName: node
+  linkType: hard
+
+"@mbarde/volto-fullcalendar-block@npm:*":
+  version: 0.7.0
+  resolution: "@mbarde/volto-fullcalendar-block@npm:0.7.0"
+  dependencies:
+    "@fullcalendar/core": 5.9.0
+    "@fullcalendar/daygrid": 5.9.0
+    "@fullcalendar/icalendar": 5.9.0
+    "@fullcalendar/list": 5.9.0
+    "@fullcalendar/react": 5.9.0
+    "@fullcalendar/timegrid": 5.9.0
+  checksum: 6c6ff7884489c2690073372d47bed143a57e338e95751f06e9cdb5bff401238c2c02bd9375326bd6cfbe63ba0d6b0922eeb8ce3efa948c18ee809c427104c6ec
   languageName: node
   linkType: hard
 
@@ -12476,10 +12631,16 @@ __metadata:
   dependencies:
     "@codesyntax/volto-social-sharing": 1.3.0
     "@eeacms/volto-accordion-block": "*"
+    "@eeacms/volto-columns-block": 6.3.2
     "@eeacms/volto-matomo": "*"
+    "@eeacms/volto-statistic-block": "*"
     "@kitconcept/volto-blocks-grid": "*"
+    "@kitconcept/volto-carousel-block": "*"
+    "@kitconcept/volto-heading-block": "*"
+    "@kitconcept/volto-separator-block": "*"
     "@kitconcept/volto-slider-block": "*"
     "@kitconcept/volto-social-blocks": 1.0.0-alpha.4
+    "@mbarde/volto-fullcalendar-block": "*"
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.20.4
     "@storybook/addon-actions": ^6.3.0
@@ -12497,7 +12658,6 @@ __metadata:
     stylelint-config-idiomatic-order: 8.1.0
     stylelint-config-prettier: 8.0.1
     stylelint-prettier: 1.1.2
-    volto-authomatic: "github:collective/volto-authomatic#main"
   languageName: unknown
   linkType: soft
 
@@ -13895,6 +14055,13 @@ __metadata:
   bin:
     husky: lib/bin.js
   checksum: 943a73a13d0201318fd30e83d299bb81d866bd245b69e6277804c3b462638dc1921694cb94c2b8c920a4a187060f7d6058d3365152865406352e934c5fff70dc
+  languageName: node
+  linkType: hard
+
+"ical.js@npm:^1.4.0":
+  version: 1.5.0
+  resolution: "ical.js@npm:1.5.0"
+  checksum: 51df7a01f462dc8a02b3c3c28acb288756071044c4a8b56ff5179995bb219e569e72cfedac6f4ab03dc643be34f5d88c09a7d79c4be6ba8a7623b7336eecb110
   languageName: node
   linkType: hard
 
@@ -16773,7 +16940,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.21, lodash@npm:^4.1.1, lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.6.1, lodash@npm:^4.7.0":
+"lodash@npm:4.17.21, lodash@npm:^4.0.1, lodash@npm:^4.1.1, lodash@npm:^4.17.10, lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.4, lodash@npm:^4.6.1, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -17032,6 +17199,13 @@ __metadata:
   peerDependencies:
     react: ">= 0.14.0"
   checksum: 4823f90e8bd6734b9a4ad206d217c55358268974e219e0edf3c64407336a14116921cad8c577c54b4bf0349412751ab25f3b6265c8b5a99207a5f6e364716636
+  languageName: node
+  linkType: hard
+
+"material-colors@npm:^1.2.1":
+  version: 1.2.6
+  resolution: "material-colors@npm:1.2.6"
+  checksum: 72d005ccccb82bab68eef3cd757e802668634fc86976dedb9fc564ce994f2d3258273766b7efecb7404a0031969e2d72201a1b74169763f0a53c0dd8d649209f
   languageName: node
   linkType: hard
 
@@ -19800,6 +19974,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact@npm:^10.0.5":
+  version: 10.16.0
+  resolution: "preact@npm:10.16.0"
+  checksum: 47a91f47d583b68a4afe971a7f992c06547df6d637cadf56eb3b69fee1fb202659b199af37d0e1a90637385144cadd75aa40acdb4e125cc4b3155e2883c24c07
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:~1.1.2":
   version: 1.1.2
   resolution: "prelude-ls@npm:1.1.2"
@@ -20067,7 +20248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.8.1, prop-types@npm:15.x, prop-types@npm:^15.0.0, prop-types@npm:^15.5.10, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:15.8.1, prop-types@npm:15.x, prop-types@npm:^15.0.0, prop-types@npm:^15.5.10, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.1, prop-types@npm:^15.7.2":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -20687,6 +20868,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-color@npm:~2.19.3":
+  version: 2.19.3
+  resolution: "react-color@npm:2.19.3"
+  dependencies:
+    "@icons/material": ^0.2.4
+    lodash: ^4.17.15
+    lodash-es: ^4.17.15
+    material-colors: ^1.2.1
+    prop-types: ^15.5.10
+    reactcss: ^1.2.0
+    tinycolor2: ^1.4.1
+  peerDependencies:
+    react: "*"
+  checksum: 40b49e1aa2ab27a099cc37a3fa2d5bb906b8def4dbe2d922c0e42365e386d82b03f9b06a2b29a44a51f1e114cef72e61c0ba0740581a128d951936ea4617429b
+  languageName: node
+  linkType: hard
+
 "react-colorful@npm:^5.1.2":
   version: 5.6.1
   resolution: "react-colorful@npm:5.6.1"
@@ -20694,6 +20892,18 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: e432b7cb0df57e8f0bcdc3b012d2e93fcbcb6092c9e0f85654788d5ebfc4442536d8cc35b2418061ba3c4afb8b7788cc101c606d86a1732407921de7a9244c8d
+  languageName: node
+  linkType: hard
+
+"react-contenteditable@npm:3.3.6":
+  version: 3.3.6
+  resolution: "react-contenteditable@npm:3.3.6"
+  dependencies:
+    fast-deep-equal: ^3.1.3
+    prop-types: ^15.7.1
+  peerDependencies:
+    react: ">=16.3"
+  checksum: 3ff8b78e63ddcdc4b93cf19ec022872116d2d8f672b2ff1b9ae12e9d807b88530d2b17bef2de9ab8a61a182bd9338388f11356cf1681d7c7894642c37be65def
   languageName: node
   linkType: hard
 
@@ -21309,6 +21519,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-slick@npm:0.25.2":
+  version: 0.25.2
+  resolution: "react-slick@npm:0.25.2"
+  dependencies:
+    classnames: ^2.2.5
+    enquire.js: ^2.1.6
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.1 || ^16.0.0
+    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0
+  checksum: a728161f6d6dd09a626db9d0c089d3eed3e8087246c0307c7e1343f6420c645d1760498c41733fce67138eadaf14a67552fd9e5d85227617cd54c750f4f542dc
+  languageName: node
+  linkType: hard
+
 "react-slick@npm:0.29.0":
   version: 0.29.0
   resolution: "react-slick@npm:0.29.0"
@@ -21535,6 +21761,15 @@ __metadata:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
   checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
+  languageName: node
+  linkType: hard
+
+"reactcss@npm:^1.2.0":
+  version: 1.2.3
+  resolution: "reactcss@npm:1.2.3"
+  dependencies:
+    lodash: ^4.0.1
+  checksum: c53e386a0881f1477e1cff661f6a6ad4c662230941f3827862193ac30f9b75cdf7bc7b4c7e5ca543d3e4e80fee1a3e9fa0056c206b1c0423726c41773ab3fe45
   languageName: node
   linkType: hard
 
@@ -24735,6 +24970,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tinycolor2@npm:^1.4.1":
+  version: 1.6.0
+  resolution: "tinycolor2@npm:1.6.0"
+  checksum: 6df4d07fceeedc0a878d7bac47e2cd47c1ceeb1078340a9eb8a295bc0651e17c750f73d47b3028d829f30b85c15e0572c0fd4142083e4c21a30a597e47f47230
+  languageName: node
+  linkType: hard
+
 "titleize@npm:^3.0.0":
   version: 3.0.0
   resolution: "titleize@npm:3.0.0"
@@ -25608,6 +25850,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"use-elapsed-time@npm:3.0.2":
+  version: 3.0.2
+  resolution: "use-elapsed-time@npm:3.0.2"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 9ba8ef6d05b8137fd715ace7303edc2fdc412f372f158bfa659926b0cb356654be84664f912d016f99deb2f3951236443feb84b78318755d5984c340dcb418a6
+  languageName: node
+  linkType: hard
+
 "use-isomorphic-layout-effect@npm:^1.1.1":
   version: 1.1.2
   resolution: "use-isomorphic-layout-effect@npm:1.1.2"
@@ -25852,12 +26103,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"volto-authomatic@github:collective/volto-authomatic#main":
-  version: 1.3.0
-  resolution: "volto-authomatic@https://github.com/collective/volto-authomatic.git#commit=05ff301e3ce04019dcf52a7e8c66f6cbd6135843"
-  peerDependencies:
-    "@plone/volto": ">=13.8.0"
-  checksum: 49ec731502b8f7c4317e08499e5103b4701d8bc478ef1da3450a4e1aeb917604343f0f1ece062e68fbbe59f9c95de754c049ca45e95a7b074b3c36f3f1d6fd29
+"vm2@npm:^3.9.19":
+  version: 3.9.19
+  resolution: "vm2@npm:3.9.19"
+  dependencies:
+    acorn: ^8.7.0
+    acorn-walk: ^8.2.0
+  bin:
+    vm2: bin/vm2
+  checksum: fc6cf553134145cd7bb5246985bf242b056e3fb5ea71e2eef6710b2a5d6c6119cc6bc960435ff62480ee82efb43369be8f4db07b6690916ae7d3b2e714f395d8
   languageName: node
   linkType: hard
 

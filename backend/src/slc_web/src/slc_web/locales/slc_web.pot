@@ -1,0 +1,491 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-07-26 02:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: slc_web\n"
+
+#: slc_web/src/slc_web/profiles/default/types/CommunityMember.xml
+msgid "A Community Member"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles/default/types/CommunitySponsor.xml
+msgid "A Community Sponsor"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Addres"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Addres of the comunnity member"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:9
+msgid "Agriculture"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Argentina"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Basic Data"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Basic data about community member."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Belice"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Canadá"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Chile"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Coach Agile"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Collaborate community"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Colombia"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles/default/types/CommunityMember.xml
+msgid "Community Member"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles/default/types/CommunitySponsor.xml
+msgid "Community Sponsor"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Company"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Contact"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Contact Data"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Contact data about community member."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Costa Rica"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Country"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Country of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Developer"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Discord"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Discord profile."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Do you want to do agility work practices?"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Do you want to do member mentories?"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "EEUU"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:14
+msgid "Education"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Email"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Email of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "English"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Enter a http:// or https:// web address"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Female"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Francese"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Gender"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Gender of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:10
+msgid "Government"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Indico"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Indico profile."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Information"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:15
+msgid "Information Services"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles.zcml:22
+msgid "Initial content for our website."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Interest"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Interest of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Knowledge"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Knowledge of the community member."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Last name"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Last name of the comunnity member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Linkedin"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Linkedin profile."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Logo/Photo"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Male"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:12
+msgid "Manufacturing and construction"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Mexico"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:16
+msgid "NGO"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Name"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Name of community member."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Native language"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Native language of the community member."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Nicaragua"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Organization"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Organization of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Other"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Other languages"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Other languages that domain the community member."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Panama"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Person"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Perú"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Phone"
+msgstr ""
+
+#: slc_web/src/slc_web/validators.py:109
+msgid "Phone number contains bad characters"
+msgstr ""
+
+#: slc_web/src/slc_web/validators.py:112
+msgid "Phone number is too short"
+msgstr ""
+
+#: slc_web/src/slc_web/validators.py:104
+msgid "Phone number string is empty"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Phone of community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Photo"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Photo community member."
+msgstr ""
+
+#: slc_web/src/slc_web/profiles.zcml:13
+msgid "Policy package to install our site"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Portuguese"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Product Owner"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:11
+msgid "Raw materials"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles.zcml:22
+msgid "SCRUM LATAM Comunidad Web portal: Initial content"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles.zcml:13
+msgid "SCRUM LATAM Comunidad Web portal: Install"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles.zcml:30
+msgid "SCRUM LATAM Comunidad Web portal: Uninstall"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "SCRUM Master"
+msgstr ""
+
+#: slc_web/src/slc_web/vocabularies/__init__.py:13
+msgid "Service"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Skills"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Skills of the community member.
+Select different skills pushing Ctrl + Click."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Social Networks"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Social Networks of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Spanish"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Basic Data"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Contact Data"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Contact Phone"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Email"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Information"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Logo or Photo"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Name"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Type"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Survey"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Tester"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Time zone"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Time zone of the community member"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Type"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "UX Design"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Undefined"
+msgstr ""
+
+#: slc_web/src/slc_web/profiles.zcml:30
+msgid "Uninstall SCRUM LATAM Comunidad Web portal setup."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "Venezuela"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Web Site"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "You can do work practices in the world of ability with us."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitymember.xml
+msgid "You can mentor your knowledge to members of the community."
+msgstr ""
+
+#: slc_web/src/slc_web/validators.py:32
+msgid "is not a valid email address."
+msgstr ""
+
+#: slc_web/src/slc_web/validators.py:55
+msgid "web address must start with http:// or https://"
+msgstr ""

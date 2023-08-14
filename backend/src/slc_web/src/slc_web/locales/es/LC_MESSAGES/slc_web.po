@@ -1,0 +1,488 @@
+# Translation of slc_web.pot to Spanish
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: slc_web\n"
+"POT-Creation-Date: 2023-07-26 02:53+0000\n"
+"PO-Revision-Date: 2023-07-25 21:42-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: slc_web\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: slc_web/profiles/default/types/CommunityMember.xml
+msgid "A Community Member"
+msgstr "Un miembro de la comunidad"
+
+#: slc_web/profiles/default/types/CommunitySponsor.xml
+msgid "A Community Sponsor"
+msgstr "Un patrocinador de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Addres"
+msgstr "Dirección"
+
+#: slc_web/schema/communitymember.xml
+msgid "Addres of the comunnity member"
+msgstr "Dirección del miembro de la comunidad"
+
+#: slc_web/vocabularies/__init__.py:9
+msgid "Agriculture"
+msgstr "Agricultura"
+
+#: slc_web/schema/communitymember.xml
+msgid "Argentina"
+msgstr "Argentina"
+
+#: slc_web/schema/communitymember.xml
+#: slc_web/schema/communitysponsor.xml
+msgid "Basic Data"
+msgstr "Datos básicos"
+
+#: slc_web/schema/communitymember.xml
+msgid "Basic data about community member."
+msgstr "Datos básicos sobre el miembro de la comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Belice"
+msgstr "Belice"
+
+#: slc_web/schema/communitymember.xml
+msgid "Canadá"
+msgstr "Canadá"
+
+#: slc_web/schema/communitymember.xml
+msgid "Chile"
+msgstr "Chile"
+
+#: slc_web/schema/communitymember.xml
+msgid "Coach Agile"
+msgstr "Coach Agile"
+
+#: slc_web/schema/communitymember.xml
+msgid "Collaborate community"
+msgstr "Colaborador de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Colombia"
+msgstr "Colombia"
+
+#: slc_web/profiles/default/types/CommunityMember.xml
+msgid "Community Member"
+msgstr "Miembro de la comunidad"
+
+#: slc_web/profiles/default/types/CommunitySponsor.xml
+msgid "Community Sponsor"
+msgstr "Patrocinador comunitario"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Company"
+msgstr "Compañía"
+
+#: slc_web/schema/communitymember.xml
+msgid "Contact"
+msgstr "Contacto"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Contact Data"
+msgstr "Contactos"
+
+#: slc_web/schema/communitymember.xml
+msgid "Contact data about community member."
+msgstr "Datos básicos sobre el miembro de la comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: slc_web/schema/communitymember.xml
+msgid "Country"
+msgstr "País"
+
+#: slc_web/schema/communitymember.xml
+msgid "Country of the community member"
+msgstr "País del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Developer"
+msgstr "Desarrollador"
+
+#: slc_web/schema/communitymember.xml
+msgid "Discord"
+msgstr "Discord"
+
+#: slc_web/schema/communitymember.xml
+msgid "Discord profile."
+msgstr "Perfil Discord."
+
+#: slc_web/schema/communitymember.xml
+msgid "Do you want to do agility work practices?"
+msgstr "¿Quieres hacer practicas de trabajo sobre agilidad?"
+
+#: slc_web/schema/communitymember.xml
+msgid "Do you want to do member mentories?"
+msgstr "¿Quieres ser parte de los miembros de mentoría?"
+
+#: slc_web/schema/communitymember.xml
+msgid "EEUU"
+msgstr "Estados unidos de america"
+
+#: slc_web/vocabularies/__init__.py:14
+msgid "Education"
+msgstr "Educación"
+
+#: slc_web/schema/communitymember.xml slc_web/schema/communitysponsor.xml
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: slc_web/schema/communitymember.xml
+msgid "Email of the community member"
+msgstr "Correo electrónico del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "English"
+msgstr "Inglés"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Enter a http:// or https:// web address"
+msgstr "Introduzca una dirección web http:// o https://"
+
+#: slc_web/schema/communitymember.xml
+msgid "Female"
+msgstr "Femenino"
+
+#: slc_web/schema/communitymember.xml
+msgid "Francese"
+msgstr "Francés"
+
+#: slc_web/schema/communitymember.xml
+msgid "Gender"
+msgstr "Género"
+
+#: slc_web/schema/communitymember.xml
+msgid "Gender of the community member"
+msgstr "Género del miembro de la comunidad"
+
+#: slc_web/vocabularies/__init__.py:10
+msgid "Government"
+msgstr "Gobierno"
+
+#: slc_web/schema/communitymember.xml
+msgid "Indico"
+msgstr "Indico"
+
+#: slc_web/schema/communitymember.xml
+msgid "Indico profile."
+msgstr "Perfil Indico."
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr "Industria"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
+msgstr "Sector industrial al que pertenece"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr "Industria"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
+msgstr "Sector industrial al que pertenece"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Information"
+msgstr "Información"
+
+#: slc_web/vocabularies/__init__.py:15
+msgid "Information Services"
+msgstr "Servicios de información"
+
+#: slc_web/profiles.zcml:22
+msgid "Initial content for our website."
+msgstr "Contenido inicial para nuestro sitio web."
+
+#: slc_web/schema/communitymember.xml
+msgid "Interest"
+msgstr "Intereses"
+
+#: slc_web/schema/communitymember.xml
+msgid "Interest of the community member"
+msgstr "Intereses del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Knowledge"
+msgstr "Conocimientos"
+
+#: slc_web/schema/communitymember.xml
+msgid "Knowledge of the community member."
+msgstr "Conocimientos del miembro de la comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Last name"
+msgstr "Apellido"
+
+#: slc_web/schema/communitymember.xml
+msgid "Last name of the comunnity member"
+msgstr "Apellido del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: slc_web/schema/communitymember.xml
+msgid "Linkedin profile."
+msgstr "Perfil LinkedIn."
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Logo/Photo"
+msgstr "Logo/Foto"
+
+#: slc_web/schema/communitymember.xml
+msgid "Male"
+msgstr "Masculino"
+
+#: slc_web/vocabularies/__init__.py:12
+msgid "Manufacturing and construction"
+msgstr "Manufactura y construcción"
+
+#: slc_web/schema/communitymember.xml
+msgid "Mexico"
+msgstr "México"
+
+#: slc_web/vocabularies/__init__.py:16
+msgid "NGO"
+msgstr "ONG"
+
+#: slc_web/schema/communitymember.xml
+#: slc_web/schema/communitysponsor.xml
+msgid "Name"
+msgstr "Nombre"
+
+#: slc_web/schema/communitymember.xml
+msgid "Name of community member."
+msgstr "Nombre del miembro de la comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Native language"
+msgstr "Idioma nativo"
+
+#: slc_web/schema/communitymember.xml
+msgid "Native language of the community member."
+msgstr "Idioma nativo del miembro de la comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: slc_web/schema/communitymember.xml
+msgid "Organization"
+msgstr "Organización"
+
+#: slc_web/schema/communitymember.xml
+msgid "Organization of the community member"
+msgstr "Organización del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Other"
+msgstr "Otro"
+
+#: slc_web/schema/communitymember.xml
+msgid "Other languages"
+msgstr "Otro idioma"
+
+#: slc_web/schema/communitymember.xml
+msgid "Other languages that domain the community member."
+msgstr "Otro idioma del miembro de la comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Panama"
+msgstr "Panama"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Person"
+msgstr "Persona"
+
+#: slc_web/schema/communitymember.xml
+msgid "Perú"
+msgstr "Perú"
+
+#: slc_web/schema/communitymember.xml
+#: slc_web/schema/communitysponsor.xml
+msgid "Phone"
+msgstr "Teléfono"
+
+#: slc_web/validators.py:109
+msgid "Phone number contains bad characters"
+msgstr "El número de teléfono contiene caracteres incorrectos"
+
+#: slc_web/validators.py:112
+msgid "Phone number is too short"
+msgstr "El número de teléfono es demasiado corto"
+
+#: slc_web/validators.py:104
+msgid "Phone number string is empty"
+msgstr "El valor del número de teléfono ingresado está vacío"
+
+#: slc_web/schema/communitymember.xml
+msgid "Phone of community member"
+msgstr "Teléfono del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Photo"
+msgstr "Foto"
+
+#: slc_web/schema/communitymember.xml
+msgid "Photo community member."
+msgstr "Foto del miembro de la comunidad."
+
+#: slc_web/profiles.zcml:13
+msgid "Policy package to install our site"
+msgstr "Paquete de políticas para instalar nuestro sitio"
+
+#: slc_web/schema/communitymember.xml
+msgid "Portuguese"
+msgstr "Portugues"
+
+#: slc_web/schema/communitymember.xml
+msgid "Product Owner"
+msgstr "Product Owner"
+
+#: slc_web/vocabularies/__init__.py:11
+msgid "Raw materials"
+msgstr "Materias primas"
+
+#: slc_web/profiles.zcml:22
+msgid "SCRUM LATAM Comunidad Web portal: Initial content"
+msgstr "Portal web SCRUM LATAM Comunidad: Contenido inicial"
+
+#: slc_web/profiles.zcml:13
+msgid "SCRUM LATAM Comunidad Web portal: Install"
+msgstr "Portal web SCRUM LATAM Comunidad: Instalar"
+
+#: slc_web/profiles.zcml:30
+msgid "SCRUM LATAM Comunidad Web portal: Uninstall"
+msgstr "Portal web SCRUM LATAM Comunidad: Desinstalar"
+
+#: slc_web/schema/communitymember.xml
+msgid "SCRUM Master"
+msgstr "SCRUM Master"
+
+#: slc_web/vocabularies/__init__.py:13
+msgid "Service"
+msgstr "Servicio"
+
+#: slc_web/schema/communitymember.xml
+msgid "Skills"
+msgstr "Habilidades"
+
+#: slc_web/schema/communitymember.xml
+msgid "Social Networks"
+msgstr "Redes sociales"
+
+#: slc_web/schema/communitymember.xml
+msgid "Social Networks of the community member"
+msgstr "Redes sociales del miembro de la comunidad"
+
+#: slc_web/schema/communitymember.xml
+msgid "Spanish"
+msgstr "Español"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Basic Data"
+msgstr "Datos básicos de Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Contact Data"
+msgstr "Contactos de Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Contact Phone"
+msgstr "Teléfono de Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Email"
+msgstr "Correo electrónico de Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Information"
+msgstr "Información sobre Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Logo or Photo"
+msgstr "Logo/Foto de Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Name"
+msgstr "Nombre de Patrocinador"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Sponsor Type"
+msgstr "Tipo de Patrocinador"
+
+#: slc_web/schema/communitymember.xml
+msgid "Survey"
+msgstr "Encuesta"
+
+#: slc_web/schema/communitymember.xml
+msgid "Tester"
+msgstr "Pruebas"
+
+#: slc_web/schema/communitymember.xml
+msgid "Time zone"
+msgstr "Zona horaría"
+
+#: slc_web/schema/communitymember.xml
+msgid "Time zone of the community member"
+msgstr "Zona horaria del miembro de la comunidad"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Type"
+msgstr "Tipo"
+
+#: slc_web/schema/communitymember.xml
+msgid "UX Design"
+msgstr "UX Design"
+
+#: slc_web/schema/communitymember.xml
+msgid "Undefined"
+msgstr "No definido"
+
+#: slc_web/profiles.zcml:30
+msgid "Uninstall SCRUM LATAM Comunidad Web portal setup."
+msgstr "Desinstalar la configuración del portal web SCRUM LATAM Comunidad."
+
+#: slc_web/schema/communitymember.xml
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Web Site"
+msgstr "Sitio web"
+
+#: slc_web/schema/communitymember.xml
+msgid "You can do work practices in the world of ability with us."
+msgstr "Puedes hacer prácticas laborales en el mundo de la habilidad con nosotros."
+
+#: slc_web/schema/communitymember.xml
+msgid "You can mentor your knowledge to members of the community."
+msgstr "Puede asesorar sus conocimientos a los miembros de la comunidad."
+
+#: slc_web/validators.py:32
+msgid "is not a valid email address."
+msgstr "no es una dirección de correo electrónico válida."
+
+#: slc_web/validators.py:55
+msgid "web address must start with http:// or https://"
+msgstr "la dirección web debe empezar por http:// o https://"

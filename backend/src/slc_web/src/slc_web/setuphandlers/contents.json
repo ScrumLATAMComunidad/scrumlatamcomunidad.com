@@ -3,8 +3,8 @@
     "_parent": "",
     "type": "Document",
     "id": "images",
-    "title": "Imagenes",
-    "description": "Banco de imagenes.",
+    "title": "Imágenes",
+    "description": "Banco de imágenes.",
     "_transitions": [
       "publish"
     ],
@@ -38,7 +38,7 @@
     "type": "Document",
     "id": "actividades",
     "title": "Actividades",
-    "description": "Beneficios que tienen los miembros de la comunidad en toda latnoamerica.",
+    "description": "Beneficios que tienen los miembros de la comunidad en toda Latinoamérica.",
     "blocks": {},
     "blocks_layout": {},
     "_transitions": [

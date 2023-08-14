@@ -18,6 +18,7 @@
   <include file="dependencies.zcml" />
 
   <include file="permissions.zcml" />
+
   <include file="profiles.zcml" />
 
   <!-- -*- extra stuff goes here -*- -->

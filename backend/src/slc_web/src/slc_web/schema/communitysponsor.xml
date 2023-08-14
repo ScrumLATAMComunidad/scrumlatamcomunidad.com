@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model xmlns="http://namespaces.plone.org/supermodel/schema"
+       xmlns:form="http://namespaces.plone.org/supermodel/form"
+       xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+       xmlns:indexer="http://namespaces.plone.org/supermodel/indexer"
+       xmlns:security="http://namespaces.plone.org/supermodel/security"
+       i18n:domain="slc_web"
+>
+  <schema>
+    <fieldset description="Sponsor Basic Data"
+              label="Basic Data"
+              name="basic_data"
+              i18n:attributes="label; description"
+    >
+      <field indexer:searchable="true"
+             name="name"
+             type="zope.schema.Text"
+      >
+        <description i18n:translate="">Sponsor Name</description>
+        <title i18n:translate="">Name</title>
+      </field>
+      <field indexer:searchable="true"
+             name="information"
+             type="plone.app.textfield.RichText"
+      >
+        <description i18n:translate="">Sponsor Information</description>
+        <title i18n:translate="">Information</title>
+      </field>
+      <field name="logo_photo"
+             type="plone.namedfile.field.NamedBlobImage"
+      >
+        <description i18n:translate="">Sponsor Logo or Photo</description>
+        <title i18n:translate="">Logo/Photo</title>
+      </field>
+      <field indexer:searchable="true"
+             name="type"
+             security:read-permission="slc_web.communitysponsor.view"
+             type="zope.schema.Choice"
+      >
+        <description i18n:translate="">Sponsor Type</description>
+        <title i18n:translate="">Type</title>
+        <values>
+          <element i18n:translate="">Company</element>
+          <element i18n:translate="">Person</element>
+        </values>
+      </field>
+      <field indexer:searchable="true"
+             name="industry"
+             security:read-permission="slc_web.communitysponsor.view"
+             type="zope.schema.Choice"
+      >
+        <description i18n:translate="">Industry sector to which it belongs</description>
+        <title i18n:translate="">Industry</title>
+        <vocabulary>slc_web.vocabulary.industries</vocabulary>
+      </field>
+    </fieldset>
+    <fieldset description="Sponsor Contact Data"
+              label="Contact Data"
+              name="contact_data"
+              i18n:attributes="label; description"
+    >
+      <field form:validator="slc_web.validators.isHTTP"
+             indexer:searchable="true"
+             name="website"
+             type="zope.schema.URI"
+      >
+        <description i18n:translate="">Enter a http:// or https:// web address</description>
+        <required>False</required>
+        <title i18n:translate="">Web Site</title>
+      </field>
+      <field form:validator="slc_web.validators.isEmail"
+             name="email"
+             security:read-permission="slc_web.communitysponsor.view"
+             type="plone.schema.email.Email"
+      >
+        <description i18n:translate="">Sponsor Email</description>
+        <required>False</required>
+        <title i18n:translate="">Email</title>
+      </field>
+      <field form:validator="slc_web.validators.isPhone"
+             name="phone"
+             security:read-permission="slc_web.communitysponsor.view"
+             type="zope.schema.Text"
+      >
+        <description i18n:translate="">Sponsor Contact Phone</description>
+        <required>False</required>
+        <title i18n:translate="">Phone</title>
+      </field>
+    </fieldset>
+  </schema>
+</model>

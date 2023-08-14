@@ -25,6 +25,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*share
 MANIFEST
 
 # PyInstaller
@@ -53,7 +54,7 @@ coverage.xml
 
 # Translations
 *.mo
-*.pot
+!*.pot
 
 # Django stuff:
 *.log

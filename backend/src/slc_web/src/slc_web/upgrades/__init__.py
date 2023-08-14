@@ -3,10 +3,10 @@ from slc_web import logger
 
 
 def upgrade_plone(context):
-    """_Upgrade Plone to latest version._
+    """Upgrade Plone to latest version.
 
     Args:
-        context (object): _context object_
+        context (object): context object
     """
     mt = api.portal.get_tool("portal_migration")
     if mt.needUpgrading():
@@ -15,10 +15,10 @@ def upgrade_plone(context):
 
 
 def upgrade_pas_plugins_authomatic(portal_setup):
-    """_Upgrade pas.plugins.authomatic to latest version._
+    """Upgrade pas.plugins.authomatic to latest version.
 
     Args:
-        portal_setup (object): _portal_setup object_
+        portal_setup (object): portal_setup object
     """
     portal_setup.upgradeProfile("profile-pas.plugins.authomatic:default")
     logger.info("Upgraded pas.plugins.authomatic")

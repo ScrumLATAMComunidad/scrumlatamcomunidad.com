@@ -1,4 +1,5 @@
 """Installer for the slc_web package."""
+
 from pathlib import Path
 from setuptools import find_packages
 from setuptools import setup
@@ -9,6 +10,7 @@ long_description = f"""
 {Path("CONTRIBUTORS.md").read_text()}\n
 {Path("CHANGES.md").read_text()}\n
 """
+source_url = "https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com"
 
 
 setup(
@@ -16,6 +18,7 @@ setup(
     version="1.0.0a1",
     description="SCRUM LATAM Comunidad Web portal configuration package.",
     long_description=long_description,
+    # Get more from https://pypi.org/classifiers/
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Plone",
@@ -32,11 +35,11 @@ setup(
     keywords="Python Plone CMS",
     author="Leonardo J. Caballero G.",
     author_email="leonardoc@plone.org",
-    url="https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com",
+    url=source_url,
     project_urls={
         "PyPI": "https://pypi.python.org/pypi/slc_web",
-        "Source": "https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com",
-        "Tracker": "https://github.com/ScrumLATAMComunidad/slc-sitioweb/issues",
+        "Source": source_url,
+        "Tracker": f"{source_url}/issues",
     },
     license="GPL version 2",
     packages=find_packages("src", exclude=["ez_setup"]),

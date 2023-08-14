@@ -8,7 +8,11 @@ __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file
 
 
 def _users_info() -> dict:
-    """Return users info."""
+    """Return users info.
+
+    Returns:
+        dict: Return users info as a dict
+    """
     with open(os.path.join(__location__, "users.json"), "r") as f_in:
         users = json.load(f_in)
     return users
@@ -26,7 +30,14 @@ def create_default_user():
 
 
 def create_accounts(accounts: list) -> list:
-    """Create user accounts."""
+    """Create user accounts.
+
+    Args:
+        accounts (list): new users list
+
+    Returns:
+        list: user accounts list
+    """
     new_users = []
     for user_info in accounts:
         username = user_info.get("username", "")

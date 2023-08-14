@@ -2,8 +2,9 @@
 from parameterized import parameterized
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
-from slc_web.testing import SLC_WEB_INTEGRATION_TESTING  # noqa: E501
 from Products.GenericSetup.upgrade import listUpgradeSteps
+from slc_web import PACKAGE_NAME
+from slc_web.testing import SLC_WEB_INTEGRATION_TESTING  # noqa: E501
 
 import unittest
 
@@ -11,9 +12,10 @@ import unittest
 class UpgradeStepIntegrationTest(unittest.TestCase):
 
     layer = SLC_WEB_INTEGRATION_TESTING
-    profile = "slc_web:default"
+    profile = f"{PACKAGE_NAME}:default"
 
     def setUp(self):
+        """Custom shared utility setup for tests."""
         self.portal = self.layer["portal"]
         self.setup = self.portal["portal_setup"]
         setRoles(self.portal, TEST_USER_ID, ["Manager"])
@@ -28,10 +30,11 @@ class UpgradeStepIntegrationTest(unittest.TestCase):
         steps = [s for s in steps if self._match(s[0], self.src, self.dst)]
         return steps
 
-    # Example of upgrade step test
+    # Upgrade steps test
     @parameterized.expand(
         [
             ("20230511001", "20230229001", 1),
+            ("20230229001", "20230726001", 1),
         ]
     )
     def test_available(self, src, dst, expected):

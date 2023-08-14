@@ -15,13 +15,25 @@ __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file
 
 
 def delete_content(portal):
-    """Delete default content."""
+    """Delete default content.
+
+    Args:
+        portal (class): Plone portal object
+    """
     o_ids = [o_id for o_id in TO_DELETE if o_id in portal.objectIds()]
     for o_id in o_ids:
         api.content.delete(obj=portal[o_id])
 
 
 def _get_image(image: str) -> NamedBlobImage:
+    """Get Image path for load to ZODB as BLOB
+
+    Args:
+        image (str): Image path to load
+
+    Returns:
+        NamedBlobImage: An image stored in a ZODB BLOB with a filename
+    """
     filepath = os.path.join(__location__, f"{image}")
     with open(filepath, "rb") as f_in:
         data = f_in.read()
@@ -29,11 +41,28 @@ def _get_image(image: str) -> NamedBlobImage:
 
 
 def date_from_string(value: str) -> DateTime:
+    """Convert DateTime from String value
+
+    Args:
+        value (str): DateTime as String
+
+    Returns:
+        DateTime: DateTime object
+    """
     return DateTime(parse(value))
 
 
 def _create_content(portal, item: dict, creators: list):
-    """Create a content."""
+    """Create a content.
+
+    Args:
+        portal (class): Plone portal object
+        item (dict): dict item
+        creators (list): creators list
+
+    Returns:
+        class: return a content created
+    """
     container = portal.restrictedTraverse(item.get("_parent"))
     o_id = item["id"]
 
@@ -76,7 +105,12 @@ def _create_content(portal, item: dict, creators: list):
 
 
 def populate_portal(portal, creators):
-    """Create content structure."""
+    """Create content structure.
+
+    Args:
+        portal (class): Plone portal object
+        creators (list): creators list
+    """
     with open(os.path.join(__location__, "contents.json"), "r") as f_in:
         contents = json.load(f_in)
 
@@ -91,14 +125,27 @@ def populate_portal(portal, creators):
 
 
 def _update_home(portal, item: dict):
-    """Update front page."""
+    """Update front page.
+
+    Args:
+        portal (class): Plone portal object
+        item (dict): dict item
+
+    Returns:
+        class: Plone portal object
+    """
     for key, value in item.items():
         setattr(portal, key, value)
     return portal
 
 
 def update_home(portal, creators):
-    """Create content structure."""
+    """Create content structure.
+
+    Args:
+        portal (class): Plone portal object
+        creators (list): creators list
+    """
     with open(os.path.join(__location__, "home.json"), "r") as f_in:
         content = json.load(f_in)
 

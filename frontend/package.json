@@ -27,10 +27,16 @@
   "addons": [
     "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
+    "@eeacms/volto-columns-block",
     "@eeacms/volto-matomo",
+    "@eeacms/volto-statistic-block",
     "@kitconcept/volto-blocks-grid",
+    "@kitconcept/volto-carousel-block",
+    "@kitconcept/volto-heading-block",
+    "@kitconcept/volto-separator-block",
     "@kitconcept/volto-slider-block",
-    "@kitconcept/volto-social-blocks"
+    "@kitconcept/volto-social-blocks",
+    "@mbarde/volto-fullcalendar-block"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -143,10 +149,16 @@
   "dependencies": {
     "@codesyntax/volto-social-sharing": "1.3.0",
     "@eeacms/volto-accordion-block": "*",
+    "@eeacms/volto-columns-block": "6.3.2",
     "@eeacms/volto-matomo": "*",
+    "@eeacms/volto-statistic-block": "*",
     "@kitconcept/volto-blocks-grid": "*",
+    "@kitconcept/volto-carousel-block": "*",
+    "@kitconcept/volto-heading-block": "*",
+    "@kitconcept/volto-separator-block": "*",
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
+    "@mbarde/volto-fullcalendar-block": "*",
     "@plone/volto": "16.20.4"
   },
   "devDependencies": {

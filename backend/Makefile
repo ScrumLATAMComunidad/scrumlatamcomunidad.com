@@ -149,6 +149,14 @@ test: ## run tests
 test_quiet: ## run tests removing deprecation warnings
 	PYTHONWARNINGS=ignore ./bin/zope-testrunner --auto-color --auto-progress --test-path src/slc_web/src/
 
+.PHONY: coverage
+coverage: ## run tests coverage reports
+	./bin/zope-testrunner --coverage slc_web --auto-color --auto-progress --test-path src/slc_web/src/
+
+.PHONY: coverage_quiet
+coverage_quiet: ## run tests coverage reports removing deprecation warnings
+	PYTHONWARNINGS=ignore ./bin/zope-testrunner --coverage slc_web --auto-color --auto-progress --test-path src/slc_web/src/
+
 .PHONY: create-site
 create-site: instance/etc/zope.ini ## Create a new site from scratch
 	PYTHONWARNINGS=ignore ./bin/zconsole run instance/etc/zope.conf ./scripts/create_site.py

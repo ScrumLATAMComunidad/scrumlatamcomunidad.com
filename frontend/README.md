@@ -10,6 +10,34 @@ Below is a list of commands you will probably find useful.
 
 Installs and checkouts the `mrs-developer` directives (`make develop`), creates a shortcut to the Volto source code (`omelette` folder), then triggers the install of the frontend environment.
 
+#### addons dependencies
+
+There are the following addons dependencies installed:
+
+- [@codesyntax/volto-social-sharing](https://www.npmjs.com/package/@codesyntax/volto-social-sharing).
+
+- [@eeacms/volto-accordion-block](https://www.npmjs.com/package/@eeacms/volto-accordion-block).
+
+- [@eeacms/volto-columns-block](https://www.npmjs.com/package/@eeacms/volto-columns-block).
+
+- [@eeacms/volto-matomo](https://www.npmjs.com/package/@eeacms/volto-matomo).
+
+- [@eeacms/volto-statistic-block](https://www.npmjs.com/package/@eeacms/volto-statistic-block).
+
+- [@kitconcept/volto-blocks-grid](https://www.npmjs.com/package/@kitconcept/volto-blocks-grid).
+
+- [@kitconcept/volto-carousel-block](https://www.npmjs.com/package/@kitconcept/volto-carousel-block).
+
+- [@kitconcept/volto-heading-block](https://www.npmjs.com/package/@kitconcept/volto-heading-block).
+
+- [@kitconcept/volto-separator-block](https://www.npmjs.com/package/@kitconcept/volto-separator-block).
+
+- [@kitconcept/volto-slider-block](https://www.npmjs.com/package/@kitconcept/volto-slider-block).
+
+- [@kitconcept/volto-social-blocks](https://www.npmjs.com/package/@kitconcept/volto-social-blocks).
+
+- [@mbarde/volto-fullcalendar-block](https://www.npmjs.com/package/@mbarde/volto-fullcalendar-block).
+
 ### `yarn start`
 
 Runs the project in development mode.

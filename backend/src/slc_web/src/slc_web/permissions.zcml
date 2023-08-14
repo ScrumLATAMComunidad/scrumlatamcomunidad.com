@@ -7,6 +7,34 @@
   <configure zcml:condition="installed AccessControl.security">
     <!-- -*- extra stuff goes here -*- -->
 
+    <!-- Permissions for Community Sponsor content type -->
+    <permission
+        id="slc_web.communitysponsor.add"
+        title="Community Sponsor: Add Community Sponsor"
+        />
+    <permission
+        id="slc_web.communitysponsor.view"
+        title="Community Sponsor: View Detail"
+        />
+    <permission
+        id="slc_web.communitysponsor.manage"
+        title="Community Sponsor: Manage Sponsors"
+        />
+
+    <!-- Permissions for Community Member content type -->
+    <permission
+        id="slc_web.communitymember.add"
+        title="Community Member: Add Community Member"
+        />
+    <permission
+        id="slc_web.communitymember.view"
+        title="Community Member: View Detail"
+        />
+    <permission
+        id="slc_web.communitymember.manage"
+        title="Community Member: Manage Members"
+        />
+
   </configure>
 
 </configure>
