@@ -1838,6 +1838,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-corsproxy@npm:*":
+  version: 3.1.3
+  resolution: "@eeacms/volto-corsproxy@npm:3.1.3"
+  checksum: ac34344013c078bed937f56fa5d11f846adccbd31d6c92cc173a62a1fa3b479838b2a9f0182a5a20f2218923aacb458fc16ab8349e0bfcebc42be5a4d5af185c
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-ims-theme@npm:6.0.3":
+  version: 6.0.3
+  resolution: "@eeacms/volto-ims-theme@npm:6.0.3"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+  checksum: 1c264c1097637d888feeebe4d1df06e263e9921530c3621794e6153dc92b531ac7a308c9d055223e1102a460ff211610be90143c0e107662a949b703a9dd08b2
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-matomo@npm:*":
   version: 4.1.2
   resolution: "@eeacms/volto-matomo@npm:4.1.2"
@@ -12632,6 +12648,7 @@ __metadata:
     "@codesyntax/volto-social-sharing": 1.3.0
     "@eeacms/volto-accordion-block": "*"
     "@eeacms/volto-columns-block": 6.3.2
+    "@eeacms/volto-ims-theme": 6.0.3
     "@eeacms/volto-matomo": "*"
     "@eeacms/volto-statistic-block": "*"
     "@kitconcept/volto-blocks-grid": "*"
