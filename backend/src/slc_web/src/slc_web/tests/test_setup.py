@@ -36,6 +36,8 @@ class TestSetup(unittest.TestCase):
         self.assertTrue(self.installer.is_product_installed("plone.volto"))
         # self.assertTrue(
         #     self.installer.is_product_installed('pas.plugins.authomatic'))
+        # self.assertTrue(
+        #     self.installer.is_product_installed('Products.CMFPlacefulWorkflow'))  # noqa
 
     def test_browserlayer(self):
         """Test that ISLC_WEBLayer is registered at browserlayer.xml file."""

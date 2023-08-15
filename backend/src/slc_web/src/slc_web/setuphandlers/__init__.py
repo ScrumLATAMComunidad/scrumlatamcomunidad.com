@@ -1,4 +1,7 @@
 from plone import api
+from Products.CMFPlacefulWorkflow.PlacefulWorkflowTool import (  # noqa
+    WorkflowPolicyConfig_id,
+)
 from Products.CMFPlone.interfaces import INonInstallable
 from slc_web import logger
 from slc_web.setuphandlers import content
@@ -32,3 +35,19 @@ def populate_portal(context):
     logger.info("Created initial content")
     # Update cover content
     content.update_home(portal, creators)
+
+
+# def set_community_sponsor_workflow_policy(obj):
+#     """Assume code that finds or creates the portal location
+#     where the policy should apply the result of this code is
+#     'folder'.
+#     Change the workflow of the object using CMFPlacefulWorkflow.
+
+#     Args:
+#         portal (_type_): _description_
+#     """
+#     obj.manage_addProduct["CMFPlacefulWorkflow"].manage_addWorkflowPolicyConfig()
+#     pc = getattr(obj, WorkflowPolicyConfig_id)
+#     pc.setPolicyIn("community_sponsor_policy")
+#     pc.setPolicyBelow("community_sponsor_policy")
+#     logger.info("Workflow changed for element %s" % obj.getId())
