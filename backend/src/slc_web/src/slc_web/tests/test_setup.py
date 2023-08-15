@@ -2,9 +2,12 @@
 from plone import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
+from plone.registry.interfaces import IRegistry
+from Products.CMFPlone.interfaces import ISiteSchema
 from Products.CMFPlone.utils import get_installer
 from slc_web import PACKAGE_NAME
 from slc_web.testing import SLC_WEB_INTEGRATION_TESTING
+from zope.component import getUtility
 
 import unittest
 
@@ -34,6 +37,11 @@ class TestSetup(unittest.TestCase):
         from slc_web.interfaces import ISLC_WEBLayer
 
         self.assertIn(ISLC_WEBLayer, utils.registered_layers())
+
+    def test_sitemap_enabled(self):
+        registry = getUtility(IRegistry)
+        settings = registry.forInterface(ISiteSchema, prefix="plone", check=False)
+        self.assertTrue(settings.enable_sitemap)
 
     def test_latest_version(self):
         """Test latest version of default profile."""
