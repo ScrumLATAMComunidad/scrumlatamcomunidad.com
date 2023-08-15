@@ -2,9 +2,12 @@
 from plone import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
+from plone.registry.interfaces import IRegistry
+from Products.CMFPlone.interfaces import ISiteSchema
 from Products.CMFPlone.utils import get_installer
 from slc_web import PACKAGE_NAME
 from slc_web.testing import SLC_WEB_INTEGRATION_TESTING
+from zope.component import getUtility
 
 import unittest
 
@@ -28,12 +31,24 @@ class TestSetup(unittest.TestCase):
         """Test if slc_web is installed."""
         self.assertTrue(self.installer.is_product_installed(PACKAGE_NAME))
 
+    def test_dependencies_installed(self):
+        """Test if slc_web's dependencies are installed."""
+        self.assertTrue(self.installer.is_product_installed("plone.volto"))
+        # self.assertTrue(
+        #     self.installer.is_product_installed('pas.plugins.authomatic'))
+
     def test_browserlayer(self):
-        """Test that ISLC_WEBLayer is registered."""
+        """Test that ISLC_WEBLayer is registered at browserlayer.xml file."""
         from plone.browserlayer import utils
         from slc_web.interfaces import ISLC_WEBLayer
 
         self.assertIn(ISLC_WEBLayer, utils.registered_layers())
+
+    def test_sitemap_enabled(self):
+        """Test for checkout if the sitemap is enabled."""
+        registry = getUtility(IRegistry)
+        settings = registry.forInterface(ISiteSchema, prefix="plone", check=False)
+        self.assertTrue(settings.enable_sitemap)
 
     def test_latest_version(self):
         """Test latest version of default profile."""
