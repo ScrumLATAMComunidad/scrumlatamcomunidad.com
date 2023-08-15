@@ -24,12 +24,17 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "private": true,
+  "workspaces": [
+    "src/addons/volto-itonboard-theme"
+  ],
   "addons": [
     "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-matomo",
     "@eeacms/volto-statistic-block",
+    "@itonboard/volto-itonboard-theme",
     "@kitconcept/volto-blocks-grid",
     "@kitconcept/volto-carousel-block",
     "@kitconcept/volto-heading-block",

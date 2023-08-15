@@ -1,1 +1,8 @@
-{}
+{
+     "volto-itonboard-theme": {
+         "url": "git@github.com:itonboard/volto-itonboard-theme.git",
+         "path": "src",
+         "package": "@itonboard/volto-itonboard-theme",
+         "branch": "master"
+     }
+}
