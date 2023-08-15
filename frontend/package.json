@@ -161,7 +161,8 @@
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
     "@mbarde/volto-fullcalendar-block": "*",
-    "@plone/volto": "16.20.4"
+    "@plone/volto": "16.20.4",
+    "lodash.throttle": "^4.1.1"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.5",
