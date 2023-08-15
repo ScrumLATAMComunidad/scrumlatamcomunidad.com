@@ -34,6 +34,8 @@ class TestSetup(unittest.TestCase):
     def test_dependencies_installed(self):
         """Test if slc_web's dependencies are installed."""
         self.assertTrue(self.installer.is_product_installed("plone.volto"))
+        # self.assertTrue(
+        #     self.installer.is_product_installed('pas.plugins.authomatic'))
 
     def test_browserlayer(self):
         """Test that ISLC_WEBLayer is registered at browserlayer.xml file."""
