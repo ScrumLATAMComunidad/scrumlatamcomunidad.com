@@ -1838,6 +1838,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-corsproxy@npm:*":
+  version: 3.1.3
+  resolution: "@eeacms/volto-corsproxy@npm:3.1.3"
+  checksum: ac34344013c078bed937f56fa5d11f846adccbd31d6c92cc173a62a1fa3b479838b2a9f0182a5a20f2218923aacb458fc16ab8349e0bfcebc42be5a4d5af185c
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-design-system@npm:*":
+  version: 1.15.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.15.0"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.28.1
+    remixicon: 2.5.0
+    slick-carousel: ^1.8.1
+  checksum: e2e4358aec877c936740824220c1274b2d25a8cfe70e92d759c804e71c2cc57c56f65bb06aa79a672aca81b1eaba84a596b427ae2c48fbdc7fff0f929b22663d
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-website-theme@npm:1.18.1":
+  version: 1.18.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.18.1"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+    volto-subsites: "*"
+  checksum: 2a3399a8f3a635055666ce47ae2ccf95f01dd4b1b46b8a347b98b5ca2684af5bba3cd5aeb2b18a5ab737819117970fe2309d1e545256b0da3779ed305143c78c
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-matomo@npm:*":
   version: 4.1.2
   resolution: "@eeacms/volto-matomo@npm:4.1.2"
@@ -2146,6 +2178,13 @@ __metadata:
     react: ^16.8.0 || ^17
     react-dom: ^16.8.0 || ^17
   checksum: 030380d5ea00234e5aa7e014d4e1d268a3dee2d59a2564e4d6a4083cab9ece84f3f3643a8474b53a18a855a0894e91d33d0e0d756008046d59e750603b5b1557
+  languageName: node
+  linkType: hard
+
+"@fontsource/roboto@npm:4.5.8":
+  version: 4.5.8
+  resolution: "@fontsource/roboto@npm:4.5.8"
+  checksum: 460b6de2c9f7a172192c3f5bdd3aa11f78f0b6660dca9dc2b9d8207272b50c55b5a8f2da68e11e7fbaf44c7d3cf4191030eecce9def79fab75d4cc1de39754e2
   languageName: node
   linkType: hard
 
@@ -12632,6 +12671,7 @@ __metadata:
     "@codesyntax/volto-social-sharing": 1.3.0
     "@eeacms/volto-accordion-block": "*"
     "@eeacms/volto-columns-block": 6.3.2
+    "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-matomo": "*"
     "@eeacms/volto-statistic-block": "*"
     "@kitconcept/volto-blocks-grid": "*"
@@ -16916,6 +16956,13 @@ __metadata:
   version: 4.1.1
   resolution: "lodash.once@npm:4.1.1"
   checksum: d768fa9f9b4e1dc6453be99b753906f58990e0c45e7b2ca5a3b40a33111e5d17f6edf2f768786e2716af90a8e78f8f91431ab8435f761fef00f9b0c256f6d245
+  languageName: node
+  linkType: hard
+
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: 129c0a28cee48b348aef146f638ef8a8b197944d4e9ec26c1890c19d9bf5a5690fe11b655c77a4551268819b32d27f4206343e30c78961f60b561b8608c8c805
   languageName: node
   linkType: hard
 
@@ -21228,6 +21275,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-lazy-load-image-component@npm:1.5.6":
+  version: 1.5.6
+  resolution: "react-lazy-load-image-component@npm:1.5.6"
+  dependencies:
+    lodash.debounce: ^4.0.8
+    lodash.throttle: ^4.1.1
+  peerDependencies:
+    react: ^15.x.x || ^16.x.x || ^17.x.x || ^18.x.x
+    react-dom: ^15.x.x || ^16.x.x || ^17.x.x || ^18.x.x
+  checksum: 2db8dd56e5926c4831e58b05650e310fd8eabc24607716ad7ffda3e0f6b325434edb098ad27068ea8db7f42fec37bc17eaffbaf562a322e6f1ace16dcc3d5422
+  languageName: node
+  linkType: hard
+
 "react-lifecycles-compat@npm:^3.0.2, react-lifecycles-compat@npm:^3.0.4":
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
@@ -21548,6 +21608,22 @@ __metadata:
     react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
   checksum: 67ce4981914da8a76c6efb4bc8ee7ab69e04c33bd4b3517419ab2165679a3c701dae781556149713fe2c542f84188b7ca101ea58883537be5c05756408f48c8b
+  languageName: node
+  linkType: hard
+
+"react-slick@npm:^0.28.1":
+  version: 0.28.1
+  resolution: "react-slick@npm:0.28.1"
+  dependencies:
+    classnames: ^2.2.5
+    enquire.js: ^2.1.6
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0
+    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0
+  checksum: 399ad43b9e10dfd66a000dd00faf1f476428ff8b9e70705d253056d279a9297b441d08fe7255b5ffea6f6e05ce63fb6c36f86fddcdffd453ee8f47ca9d958f72
   languageName: node
   linkType: hard
 
@@ -22317,6 +22393,13 @@ __metadata:
   dependencies:
     mdast-squeeze-paragraphs: ^4.0.0
   checksum: 2071eb74d0ecfefb152c4932690a9fd950c3f9f798a676f1378a16db051da68fb20bf288688cc153ba5019dded35408ff45a31dfe9686eaa7a9f1df9edbb6c81
+  languageName: node
+  linkType: hard
+
+"remixicon@npm:2.5.0":
+  version: 2.5.0
+  resolution: "remixicon@npm:2.5.0"
+  checksum: 7fa8f3643e3f24d7fa1cdbf37391bb4b3bfc0fda6643ba4e09e92fb8639351cee03f51539f18640747c2055e3622c8b81369f323857793ffbe7d2292cbac60c6
   languageName: node
   linkType: hard
 
@@ -23530,7 +23613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slick-carousel@npm:1.8.1":
+"slick-carousel@npm:1.8.1, slick-carousel@npm:^1.8.1":
   version: 1.8.1
   resolution: "slick-carousel@npm:1.8.1"
   peerDependencies:
@@ -26112,6 +26195,15 @@ __metadata:
   bin:
     vm2: bin/vm2
   checksum: fc6cf553134145cd7bb5246985bf242b056e3fb5ea71e2eef6710b2a5d6c6119cc6bc960435ff62480ee82efb43369be8f4db07b6690916ae7d3b2e714f395d8
+  languageName: node
+  linkType: hard
+
+"volto-subsites@npm:*":
+  version: 4.0.0
+  resolution: "volto-subsites@npm:4.0.0"
+  peerDependencies:
+    "@plone/volto": ">=16.0.0-alpha.38"
+  checksum: 9f943abc00fb1d25d1bf2b487b9f545663ad85b216c751a2fd37739cea7cfd62de958edc8bdfbb51b3e795007199706b272f344e9e08179874a02f903b3e2071
   languageName: node
   linkType: hard
 
