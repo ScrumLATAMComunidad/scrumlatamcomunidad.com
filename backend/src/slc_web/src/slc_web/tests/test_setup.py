@@ -32,13 +32,14 @@ class TestSetup(unittest.TestCase):
         self.assertTrue(self.installer.is_product_installed(PACKAGE_NAME))
 
     def test_browserlayer(self):
-        """Test that ISLC_WEBLayer is registered."""
+        """Test that ISLC_WEBLayer is registered at browserlayer.xml file."""
         from plone.browserlayer import utils
         from slc_web.interfaces import ISLC_WEBLayer
 
         self.assertIn(ISLC_WEBLayer, utils.registered_layers())
 
     def test_sitemap_enabled(self):
+        """Test for checkout if the sitemap is enabled."""
         registry = getUtility(IRegistry)
         settings = registry.forInterface(ISiteSchema, prefix="plone", check=False)
         self.assertTrue(settings.enable_sitemap)
