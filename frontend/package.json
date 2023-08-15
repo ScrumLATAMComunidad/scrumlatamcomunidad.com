@@ -36,7 +36,8 @@
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-slider-block",
     "@kitconcept/volto-social-blocks",
-    "@mbarde/volto-fullcalendar-block"
+    "@mbarde/volto-fullcalendar-block",
+    "@plone-collective/volto-educal-theme"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -182,5 +183,9 @@
   "resolutions": {
     "react-error-overlay": "6.0.9"
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.2.3",
+  "private": true,
+  "workspaces": [
+    "src/addons/*"
+  ]
 }
