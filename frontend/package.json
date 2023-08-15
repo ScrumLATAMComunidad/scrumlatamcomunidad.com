@@ -27,6 +27,7 @@
   "addons": [
     "@codesyntax/volto-social-sharing",
     "@eeacms/volto-accordion-block",
+    "@eeacms/volto-bise",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-matomo",
     "@eeacms/volto-statistic-block",
@@ -149,6 +150,7 @@
   "dependencies": {
     "@codesyntax/volto-social-sharing": "1.3.0",
     "@eeacms/volto-accordion-block": "*",
+    "@eeacms/volto-bise": "2.0.9",
     "@eeacms/volto-columns-block": "6.3.2",
     "@eeacms/volto-matomo": "*",
     "@eeacms/volto-statistic-block": "*",
