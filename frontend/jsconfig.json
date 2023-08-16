@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@plone-collective/volto-educal-theme": [
+                "addons/volto-educal-theme/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }

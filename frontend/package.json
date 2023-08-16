@@ -39,6 +39,7 @@
     "@mbarde/volto-fullcalendar-block",
     "@plone-collective/volto-educal-theme"
   ],
+  "theme": "@plone-collective/volto-educal-theme",
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
