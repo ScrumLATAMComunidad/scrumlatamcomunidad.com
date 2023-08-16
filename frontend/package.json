@@ -162,7 +162,7 @@
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
     "@mbarde/volto-fullcalendar-block": "*",
-    "@plone/volto": "17.0.0-alpha.7"
+    "@plone/volto": "17.0.0-alpha.24"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.5",
