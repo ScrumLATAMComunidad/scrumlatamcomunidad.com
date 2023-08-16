@@ -1,1 +1,8 @@
-{}
+{
+  "volto-light-theme": {
+    "package": "@kitconcept/volto-light-theme",
+    "url": "git@github.com:kitconcept/volto-light-theme.git",
+    "https": "https://github.com/kitconcept/volto-light-theme.git",
+    "path": "src"
+  }
+}

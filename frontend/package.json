@@ -39,6 +39,7 @@
     "@kitconcept/volto-social-blocks",
     "@mbarde/volto-fullcalendar-block"
   ],
+  "theme": "@kitconcept/volto-light-theme",
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -161,7 +162,7 @@
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
     "@mbarde/volto-fullcalendar-block": "*",
-    "@plone/volto": "16.20.4"
+    "@plone/volto": "17.0.0-alpha.7"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.5",
@@ -176,6 +177,7 @@
     "postcss": "8.4.13",
     "prettier": "2.0.5",
     "razzle": "4.2.17",
+    "razzle-plugin-scss": "4.2.18",
     "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
